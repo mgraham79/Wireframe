@@ -1,72 +1,52 @@
 body {
-    font-family: arial, helvetica neue, helvetica, sans-serif;
-    background-color: #777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
-    font-size: 18px;
+    background: #777;
     width: 960px;
+    font-size: 18px;
     margin: auto;
-    text-align: center;
+    line-height: 34px;
 }
 
 header, nav, section, aside, footer {
     background: #ebebeb;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-}
-
-h4, p {
-    color: #777;
-    background: #ebebeb;
-}
-
-header {
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-nav {
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-section {
-    float: left;
-    width: 495px;
-    padding: 20px;
-    overflow: auto;
-    margin-bottom: 20px;
-}
-
-article {
-    overflow: auto;
-    width: 450px;
-    margin: auto;
-    margin-top: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-aside {
-    float: right;
-    width: 365px;
-    padding: 20px;
-    height: 189px;
-    margin-bottom: 20px;
-}
-
-h4, p {
-    width: 75%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
     padding: 10px;
 }
 
-footer {
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+section {
+    display: block;
+    width: 495px;
+    float: left;
+    height: 267px;
+    overflow: hidden;
+}
+
+aside {
+    display: block;
+    float: right;
+    width: 40%;
+    height: 267px;
+    overflow: hidden;
+}
+
+.clear {
     clear: both;
-    padding: 20px;
 }
